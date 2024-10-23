@@ -9,16 +9,14 @@ const randomIndex = Math.floor(Math.random() * DUMMY_USERS.length);
 //   name : string,
 //   avatar : string
 // }
-
-
-
-
 @Component({
   selector: 'app-user',
-  standalone: true,
-  imports: [],
   templateUrl: './user.component.html',
   styleUrl: './user.component.scss',
+  standalone:true,
+  imports:[
+
+  ]
 })
 export class UserComponent {
 
